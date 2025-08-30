@@ -83,10 +83,6 @@ export default function TransactionForm({ onAdd }) {
         <option value="Income">Income</option>
       </select>
 
-      <select id="filter">
-        <option value="">Filter</option>
-        <option value="">Filter</option>
-      </select>
       <button className="btn-add" onClick={handleSubmit}>
         Add
       </button>

@@ -267,3 +267,42 @@ body {
   padding: 6px 10px;
   outline: none;
 }
+
+/* ===== Filters (Month + Category) ===== */
+.month-selector {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 500;
+  color: #f9fafb;
+  flex-wrap: wrap; /* quebra em telas menores */
+}
+
+.month-selector label {
+  font-size: 0.95rem;
+  color: #f9fafb;
+}
+
+.month-selector input,
+.month-selector select {
+  background: #374151;
+  color: #f9fafb;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 10px;
+  outline: none;
+  font-size: 0.95rem;
+  transition: border 0.2s ease, background 0.2s ease;
+}
+
+.month-selector input:focus,
+.month-selector select:focus {
+  border: 2px solid #facc15; /* amarelo de destaque */
+  background: #1f2937;
+}
+
+.month-selector select option {
+  background: #1f2937;
+  color: #f9fafb;
+}
